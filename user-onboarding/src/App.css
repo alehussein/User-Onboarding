@@ -1,0 +1,127 @@
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  display: flex;
+  align-content: center;
+  /* background-color: #282c34; */
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+#error{
+  margin-top: 20%;
+}
+form{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 238, 238);
+  align-items: center;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+  border: solid #000406;
+  margin-bottom: 10px;
+  }
+form div{
+  color: red;
+  
+}
+  #h1{
+    text-shadow: 1px 2px 2px #000406;
+  }
+
+#userdata{
+  border: solid black;
+  background-color: rgb(203, 231, 63);
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+ 
+}
+#userdata div {
+  padding: 5px;
+  margin: 3px;
+}
+
+
+#name{
+  margin-right: 5px;
+}
+#pass{
+  /* background-color: aquamarine; */
+  margin-right: 30px;
+}
+
+/* button{
+  margin: 10px;
+} */
+
+label{
+  
+  padding: 10px;
+  color: transparent;
+  background: #666666;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.mi-boton {
+  margin: 10px;
+  color: #fff;
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.mi-boton-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: red;
+}
+
+.mi-boton-enabled {
+  background-color: #007bff;
+}
