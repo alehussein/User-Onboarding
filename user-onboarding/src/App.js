@@ -66,7 +66,7 @@ export default function App () {
       <form onSubmit={submit}>
         <h1 id='h1'>USER FORM</h1>
         <label id='name'>Name
-          <input onChange={change} value={userdata.user} type='text' name='user' placeholder='Enter Name'/>
+          <input onChange={change} value={userdata.user} id="user" type='text' name="user" placeholder='Enter Name'/>
           <div>{errors.user}</div>
         </label>
         <label>Email
@@ -92,7 +92,7 @@ export default function App () {
         </select>
         <div>{errors.role}</div>
         {/* <button disabled={disabled}>Submit</button> */}
-        <button className={`mi-boton ${botonClass}`} disabled={disabled}>Enviar</button>
+        <button id='button' name='button' className={`mi-boton ${botonClass}`} disabled={disabled}>Submit</button>
       </form>
       {user.map(user => (
         <div id='userdata' key={user.id}>
